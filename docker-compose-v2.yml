@@ -13,7 +13,7 @@ services:
     mem_limit: 2G
     environment:
       - JAVA_OPTS="-Xmx2G"
-      - CLUSTER_NAME=c4-${CASSTAG}-cluster
+      - CLUSTER_NAME=c4-cluster
       - CLUSTER_VERSION=4.0
       - RACK_NAME=rack1
       - DATACENTER_NAME=datacenter1
